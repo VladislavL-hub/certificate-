@@ -1,0 +1,25 @@
+.novation {
+    background: url(../img/men_phone.jpg) no-repeat 50%/cover;
+    color: #fff;
+    margin: 100px 100px;
+    &__wrapper {
+        text-align: center;
+        margin: 0 auto;
+        padding: 180px 0;
+        width: 850px;
+    }
+    &__title {
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 30px;;
+    }
+    &__subtitle {
+        font-size: 25px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+    &__descr {
+        font-size: 19px;
+    }
+}
+

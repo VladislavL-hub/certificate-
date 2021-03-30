@@ -1,0 +1,32 @@
+.promo {
+    color: #fff;
+    background: url(../img/main2.jpg);
+    background-size: cover;
+    padding: 100px 0;
+    &__wrapper {
+        margin: 0 auto;
+        text-align: center;
+    }
+    &__title {
+        font-size: 72px;
+        margin-bottom: 50px;
+        line-height: 90px;
+        font-weight: 900;
+    }
+    &__subtitle {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    &__descr {
+        font-size: 19px;
+        width: 850px;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+

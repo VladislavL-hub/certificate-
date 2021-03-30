@@ -1,0 +1,31 @@
+.contact {
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        height: 400px;
+    }
+    &__descr {
+        background: #000;
+        padding: 100px 0;
+        width: 50%;
+        text-align: center;
+        a{
+            color: #fff;
+        }
+    }
+    &__cooperation {
+        margin-top: 25px;
+    }
+    &__title-us {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    &__title-cooperation {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    &__img {
+        width: 50%;
+        height: 100%
+    }
+}

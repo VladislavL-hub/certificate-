@@ -1,0 +1,48 @@
+.header {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    height: 121px;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__logo {
+        display: flex;
+        align-items: center;
+        &-img {
+            height: 121px;
+            img {
+                height: 100%;
+            }
+        }
+        &-text {
+            height: 85px;
+            line-height: 35px;
+        }
+        &-title {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+    }
+    &__phone {
+        &-shop {
+            align-items: center;
+            text-align: center;
+            height: 85px; 
+        }
+        &-href {
+            display: flex;
+            width: 400px;
+            img {
+                width: 100%;
+            }
+        }
+        &-title {
+            font-size: 18px;
+            line-height: 16px;
+        }
+    }
+}
+
+

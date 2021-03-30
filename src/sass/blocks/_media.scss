@@ -1,0 +1,326 @@
+@media (max-width: 1439px) {   //1201
+    .container {
+        width: 1140px;
+    }
+}
+@media (max-width: 1200px) {  //993
+    .container {
+        max-width: 960px;
+    }
+    .promo {
+        &__title {
+            font-size: 65px;
+            margin-bottom: 30px;
+            line-height: 78px;
+        }
+        &__subtitle {
+            margin-bottom: 35px;
+        } 
+    }
+    .advantages {
+        padding-bottom: 40px;
+    } 
+    .function {
+        &__descr-text {
+            padding: 50px 60px;
+        }
+    }
+    .feed {
+        padding-top: 20px;
+    }
+    .contact {
+        &__wrapper {
+            height: 350px;
+        }
+    } 
+}
+
+
+
+
+
+@media (max-width: 992px) { //769
+    .container {
+        max-width: 720px;
+    }
+    .header {
+        &__logo-subtitle {
+            line-height: 20px;
+        }
+        &__logo-title {
+            margin-bottom: 0;
+        }
+    }
+    .promo {
+        // background: url(../img/main2.jpg) no-repeat 0%/cover;
+        padding: 75px 0;
+        &__descr {
+            width: 700px;
+            font-size: 18px;
+        }
+    }
+    .advantages {
+        padding: 35px 0 35px 0;
+        &__wrapper {
+            align-items: center;
+            flex-direction: column;
+            margin-top: 0px;
+        }
+        &__item {
+            max-width: 400px;
+            margin-top: 25px;
+        }
+        &__descr {
+             margin-top: 10px;
+             font-size: 16px;
+        }
+        &__subtitle {
+            font-size: 20px;
+        }
+    }
+    .function {
+        &__descr-text {
+            padding: 50px 15px;    //убрать слайдер Вар 1
+            width: 50%;
+        }
+        &__descr-slider {
+            width: 450px;        //убрать слайдер Вар 1
+        }
+    }
+    .carousel {
+        .slick-prev {
+            left: -40px;
+        }
+        .slick-next {
+            right: -40px;
+        }
+    }
+    .contact {
+        &__wrapper {
+            height: 280px;
+        }
+        &__descr {
+            padding: 20px 0;
+        }
+        &__title-us {
+            font-size: 36px;
+        }
+    } 
+}
+
+
+
+@media (max-width: 768px) {  //577
+    .container {
+        max-width: 540px;
+    }
+    .title {
+        font-size: 33px;
+    }
+    .header {
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        &__logo {
+            width: 250px;
+        }
+        &__logo-subtitle {
+            font-size: 14px;
+        }
+        &__phone-shop {
+            height: 71px;
+        }
+        &__phone-href {
+            width: 270px;
+            img {
+                height: 64px;
+                width: 100%;
+            }
+        }
+    }
+
+    .promo {
+        padding: 40px 0;
+        &__title {
+            font-size: 55px;
+            line-height: 65px;
+        }
+        &__descr {
+            width: 500px;
+            font-size: 17px;
+        }
+    }
+    .advantages {
+        padding: 35px 0 35px 0;
+        &__wrapper {
+            align-items: center;
+            flex-direction: column;
+            margin-top: 0px;
+        }
+        &__item {
+            max-width: 400px;
+            margin-top: 25px;
+        }
+        &__descr {
+             margin-top: 10px;
+             font-size: 16px;
+        }
+        &__subtitle {
+            font-size: 20px;
+        }
+    }
+    .function {
+        padding-top: 20px;
+        &__descr {
+            display: block;
+            height: 100%;
+        }
+        &__descr-text {
+            width: 100%;
+            padding: 15px;
+            &-descr {
+                font-size: 17px;
+            }
+        }
+        &__descr-slider {
+            width: 100%;
+        }
+    }
+    .feed {
+        &__descr {
+            font-size: 15px;
+        }
+    }
+    .contact {
+        &__wrapper {
+            height: 250px;
+        }
+        &__title-us {
+            font-size: 29px;
+        }
+        &__title-cooperation {
+            font-size: 20px;
+        }
+    }
+}
+
+
+@media (max-width: 576px) { //320
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .title {
+        font-size: 25px;
+    }
+    .header {
+        height: 140px;
+        .container {
+            position: relative;
+        }
+        &__logo-subtitle {
+            display: none;
+        }
+        &__phone {
+            &-shop {
+                position: absolute;
+                top: 50px;
+                left: 110px;
+            }
+            &-title {
+                display: none;
+            }
+        }
+        &__phone-href {
+            margin: 0 auto;
+            width: 300px;
+            display: flex;
+            img {
+                width: 150px;
+            }
+        }
+    }
+    .promo {
+        padding: 10px 0;
+        // background: url(../img/main2.jpg) no-repeat 50%/cover;
+        &__title {
+            font-size: 40px;
+            line-height: 50px;
+        }
+        &__subtitle {
+            margin-bottom: 0;
+        }
+        &__descr {
+            width: auto;
+            font-size: 15px;
+            display: none;
+        }
+    }
+    .advantages {
+        padding: 25px 0 35px 0;
+        &__subtitle {
+            font-size: 18px;
+        }
+        &__descr {
+            font-size: 14px;
+        }
+    }
+    .function {
+        &__subtitle {
+            font-size: 21px;
+        }
+        &__descr-text {
+            display: none;
+        }
+        &__descr-slider {
+            padding-top: 0 !important;
+        }
+    }
+    .feed {
+        padding-bottom: 30px;
+        &__item {
+            flex-direction: column;
+            align-items: end;
+            margin-top: 50px;
+            &:nth-child(2) {
+                margin-top: 30px;
+            }
+        }
+        &__text {
+            margin-left: 0px;
+            margin-top: 15px;
+        }
+        &__descr {
+            font-size: 14px;
+        }
+    }
+    .contact {
+        &__wrapper {
+            height: auto;
+        }
+        &__descr {
+            width: auto;
+        }
+        &__img {
+            display: none;
+        }
+    }
+}
+
+
+@media (max-width: 410px) { 
+    .header {
+        height: 172px;
+        &__logo-subtitle {
+            display: block;
+        }
+        &__phone-shop {
+            top: 105px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    
+}
+
